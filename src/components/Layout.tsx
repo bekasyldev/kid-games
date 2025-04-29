@@ -3,14 +3,6 @@ import { Link, Outlet } from 'react-router-dom';
 const Layout = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-100 to-purple-100">
-      <header className="bg-white shadow-md">
-        <div className="container mx-auto px-4 py-4">
-          <div className="flex justify-between items-center">
-            <Link to="/" className="text-2xl font-bold text-purple-600">Зейінді балақай</Link>
-          </div>
-        </div>
-      </header>
-
       <main className="container mx-auto px-4 py-8">
         <Outlet />
       </main>
