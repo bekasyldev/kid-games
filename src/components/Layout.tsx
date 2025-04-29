@@ -7,12 +7,6 @@ const Layout = () => {
         <div className="container mx-auto px-4 py-4">
           <div className="flex justify-between items-center">
             <Link to="/" className="text-2xl font-bold text-purple-600">Зейінді балақай</Link>
-            <nav className="space-x-6">
-              <Link to="/authors" className="text-gray-600 hover:text-purple-600 transition-colors">Авторлар</Link>
-              <Link to="/about" className="text-gray-600 hover:text-purple-600 transition-colors">Түсіндірме жазба</Link>
-              <Link to="/games" className="text-gray-600 hover:text-purple-600 transition-colors">Ойындар</Link>
-              <Link to="/tasks" className="text-gray-600 hover:text-purple-600 transition-colors">Тапсырмалар</Link>
-            </nav>
           </div>
         </div>
       </header>
@@ -30,4 +24,4 @@ const Layout = () => {
   );
 };
 
-export default Layout; 
+export default Layout;
