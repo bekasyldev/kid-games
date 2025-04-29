@@ -10,6 +10,23 @@ const Home = () => {
         Электрондық оқу құралы
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-16">
+      <div className="bg-white rounded-xl shadow-lg p-8 transform hover:scale-105 transition-transform h-64 flex flex-col justify-center">
+          <Link to="/authors" className="h-full flex flex-col justify-center">
+            <h3 className="text-2xl font-semibold text-purple-600 mb-6">Авторлар</h3>
+            <p className="text-gray-600 text-lg">
+              Электрондық оқу құралын жасаушылар туралы ақпарат
+            </p>
+          </Link>
+        </div>
+        
+        <div className="bg-white rounded-xl shadow-lg p-8 transform hover:scale-105 transition-transform h-64 flex flex-col justify-center">
+          <Link to="/about" className="h-full flex flex-col justify-center">
+            <h3 className="text-2xl font-semibold text-purple-600 mb-6">Түсіндірме жазба</h3>
+            <p className="text-gray-600 text-lg">
+              Электрондық оқу құралының мақсаты мен міндеттері
+            </p>
+          </Link>
+        </div>
         <div className="bg-white rounded-xl shadow-lg p-8 transform hover:scale-105 transition-transform h-64 flex flex-col justify-center">
           <Link to="/games" className="h-full flex flex-col justify-center">
             <h3 className="text-2xl font-semibold text-purple-600 mb-6">Ойындар</h3>
@@ -28,23 +45,7 @@ const Home = () => {
           </Link>
         </div>
 
-        <div className="bg-white rounded-xl shadow-lg p-8 transform hover:scale-105 transition-transform h-64 flex flex-col justify-center">
-          <Link to="/authors" className="h-full flex flex-col justify-center">
-            <h3 className="text-2xl font-semibold text-purple-600 mb-6">Авторлар</h3>
-            <p className="text-gray-600 text-lg">
-              Электрондық оқу құралын жасаушылар туралы ақпарат
-            </p>
-          </Link>
-        </div>
         
-        <div className="bg-white rounded-xl shadow-lg p-8 transform hover:scale-105 transition-transform h-64 flex flex-col justify-center">
-          <Link to="/about" className="h-full flex flex-col justify-center">
-            <h3 className="text-2xl font-semibold text-purple-600 mb-6">Түсіндірме жазба</h3>
-            <p className="text-gray-600 text-lg">
-              Электрондық оқу құралының мақсаты мен міндеттері
-            </p>
-          </Link>
-        </div>
       </div>
     </div>
   );
